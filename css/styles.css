@@ -1,0 +1,292 @@
+body {
+  text-align: center;
+}
+
+#title {
+  text-align: left;
+}
+
+#First-Section {
+  padding: 10% 7% 10%;
+  text-align: center;
+}
+
+.white-section {
+  background-color: white;
+}
+
+.colored-section {
+  background-color: #c20000;
+  color: white;
+}
+
+.navbar {
+  height: 100px;
+}
+
+.navbar-brand {
+  font-family: 'Style Script', cursive;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.container-fluid {
+  padding: 1% 7% 1%;
+}
+
+.Alley-Image {
+  width: 100%;
+  height: 100%;
+  /* border: 10px solid red; */
+  background-image: url("../Images/Header2.png");
+}
+
+.title-image {
+  text-align: center;
+}
+
+.big-heading {
+  font-weight: 900;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+/* Features Section */
+
+#features {
+  background-color: white;
+  position: relative;
+
+  text-align: center;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.feature-icon {
+  font-size: 5rem;
+  color: #c20000;
+  margin-bottom: 1rem;
+}
+
+.feat-one {
+  padding: 7% 15%;
+}
+
+.feature-icon:hover {
+  color: #8F0000;
+}
+
+/* About Us */
+
+#AboutUs {
+  height: 100vh;
+  margin: auto;
+}
+
+.AboutUsImg {
+  width: 100%;
+  height: 100%;
+  /* border: 10px solid red; */
+  background-image: url("../Images/About_img3.png");
+  background-repeat: no-repeat;
+}
+
+.AbtUs {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  color: white;
+}
+
+.AbtHead {
+  position: relative;
+  font-family: 'Sansita Swashed', cursive;
+  font-size: 100px;
+  top: 2.5em;
+  right: 30rem;
+}
+
+.AbtText {
+  position: relative;
+  font-family: 'Sansita Swashed', cursive;
+  top: 7em;
+  right: 30rem;
+}
+
+
+/* Testimonials Section */
+
+/* #testimonials {
+  background-color: #c20000;
+  color: #fff;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 700;
+  color: white;
+}
+
+.testimonial-image {
+  width: 20%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+} */
+
+/* Form Section */
+
+.form-holder {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      min-height: 50vh;
+}
+
+.form-holder .form-content {
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+}
+
+.form-content .form-items {
+    border: 3px solid #fff;
+    padding: 40px;
+    display: inline-block;
+    width: 100%;
+    min-width: 540px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+/* .form-content .form-items .form-control {
+  text-align: center;
+} */
+
+
+.submit-button {
+  margin: 20px;
+}
+
+#InputForm {
+  align-items: center;
+}
+
+#press {
+  background-color: #185ADB;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+
+/*Pricing Section*/
+
+#pricing {
+  padding: 10px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 700;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+
+#cta {
+  padding: 50px;
+}
+
+.footer-text {
+  position: relative;
+  top: 50px;
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+  margin: 20px;
+
+  text-align: center;
+}
+
+.container {
+  max-width: 800px;
+  height: 500px;
+  margin: auto;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+
+.myCard {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.myLeftCtn {
+  position: relative;
+  background: #fff;
+  border-radius: 25px;
+  height: 100%;
+  padding: 25px;
+  padding-left: 50px;
+}
+
+.myLeftCtn header {
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.myRightCtn {
+  position: relative;
+  background-image: linear-gradient(45deg, #f046ff, #9b00e8);
+  border-radius: 25px;
+  height: 100%;
+  padding: 25px;
+  color: rgb 192, 192, 192;
+  font-size: 12px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  background: white;
+  color: #332F2E;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  padding: 2em;
+}
+
+#footer {
+  text-align:center;
+}
+
+.social-icon {
+  padding: 25px 5px;
+}

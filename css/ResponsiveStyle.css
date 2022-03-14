@@ -1,0 +1,62 @@
+@media (max-width: 1400px) {
+  .AbtHead {
+    align-items: center;
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 6rem;
+    top: 1rem;
+    right: auto;
+  }
+
+  .AbtText {
+    position: relative;
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 2.5rem;
+    top: 2em;
+    right: auto;
+  }
+}
+
+@media (max-width: 991px) {
+  .AbtHead {
+    align-items: center;
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 4rem;
+    top: 1rem;
+    right: auto;
+  }
+
+  .AbtText {
+    position: relative;
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 1.5rem;
+    top: 2em;
+    right: auto;
+  }
+
+  #AboutUs {
+    height: 50vh;
+    margin: auto;
+  }
+}
+
+@media (max-width: 700px) {
+  #AboutUs {
+    height: 15vh;
+    margin: auto;
+  }
+
+  .AbtHead {
+    align-items: center;
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 4rem;
+    top: 1rem;
+    right: auto;
+  }
+
+  .AbtText {
+    position: relative;
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 1.5rem;
+    top: 2em;
+    right: auto;
+  }
